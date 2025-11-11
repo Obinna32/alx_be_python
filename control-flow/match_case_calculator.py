@@ -1,15 +1,15 @@
 num1 = eval(input("Enter the first number: "))
 num2 = eval(input("Enter the second number: "))
 
-operator = input("Choose the operator (+,-,*,/): ")
+operation = input("Choose the operator (+,-,*,/): ")
 
-if operator == "+":
+if operation == "+":
     result = num1+num2
-elif operator == "-":
+elif operation == "-":
     result = num1-num2
-elif operator == "*":
+elif operation == "*":
     result = num1 * num2
-elif operator == "/":
+elif operation == "/":
     if num2 == 0:
         print("Cannot divide by zero.")
     else:
