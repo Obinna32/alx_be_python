@@ -1,7 +1,7 @@
 num1 = eval(input("Enter the first number: "))
 num2 = eval(input("Enter the second number: "))
 
-operation = input("Choose the operator (+,-,*,/): ")
+operation = input("Choose the operation (+, -, *, /):.")
 
 if operation == "+":
     result = num1+num2
