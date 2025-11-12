@@ -3,6 +3,6 @@ row = 0
 
 while row < size:
     for col in range(size):
-        print("x", end="")  # print on same line
+        print("*", end="")  # print on same line
     print()  # move to next line
     row += 1
