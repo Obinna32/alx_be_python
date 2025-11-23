@@ -1,11 +1,11 @@
-fahrenheit_to_celsius_factor = 5/9
-celsius_to_fahrenheit_factor = 9/5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(fahrenheit):
-    return (fahrenheit - 32) * fahrenheit_to_celsius_factor
+    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 
 def convert_to_fahrenheit(celsius):
-    return (celsius_to_fahrenheit_factor * celsius) + 32
+    return (CELSIUS_TO_FAHRENHEIT_FACTOR * celsius) + 32
 
 def is_float(s):
     try:
