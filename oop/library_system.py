@@ -3,6 +3,9 @@ class Book:
         self.title = title
         self.author = author
 
+    def __str__(self):
+        return f"Book — {self.title} by {self.author}"
+
 class EBook(Book):
     #Represents a digital book with a file size
     def __init__(self, title: str, author: str, file_size: int):
